@@ -1,0 +1,78 @@
+a{
+	text-decoration: none;
+	background-color: #0D1EC6;
+	color: white;
+}
+body{
+	font-family: "Overpass", sans-serif
+	margin: 0;
+	
+}
+   
+h1, h2, h3, p, a{
+		font-family: "Chivo", sans-serif;
+	}
+
+ .banner {
+ 	background-image: url('images/background.jpg');
+ 	padding: 150px 0;
+ 	background-size: cover;
+ 	text-align: center;
+ }
+	
+.banner h1{
+	color: white;
+	font-size: 45px
+ }
+.banner p{
+	color: #C4C4C4;
+	font-size: 24px;
+	text-align: center;
+}
+.btn-blue {
+	padding: 16px 40px;
+	border-radius: 4px;
+	transition: 5s;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.btn-blue:hover {
+	background-color: #0D1EC6;
+}
+
+.card-white{
+	box-shadow: 0 0 16px grey;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 15px;
+	border-radius: 4px;
+}
+.card-white img	{
+    width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+	
+}
+.card-white h3, p {
+	text-align: left;
+}
+	
+.container{
+	width: 600px;
+	margin: auto;
+}
+.footer p{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 16px;
+
+}
